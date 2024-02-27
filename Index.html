@@ -2,16 +2,99 @@
 <html>
     <head>
         <title>Phoenyx Meira's Portfolio</title>
+        <link rel="stylesheet" href="style/stylesheet1.css">
     </head>
     <body>
-        <h1> Phoenyx Meira's Portfolio</h1>
-        <h2> Introduction </h2>
-        <p> Hello my name is Phoenyx Meira!</p>
-        <p> I am a sophomore at Southern Connecticut State University and I am majoring in computer science with minors in Math and Honors Transdisciplinary Concepts.</p>
-        <p>I have experience in html, css, python, and the adobe suite. I have certifications in Microsoft Word, PowerPoint, and Excel.</p>
-        <p>I went to W.F. Kaynor technical High School and went for I.T. which is where I got most of my experience.</p>
-        <p>Currently I'm participating in NCL, which is the National Cyber League, that is a cybersecurity competition, learning java in CSC 229, and bettering my website development skills </p>
-        <h2> Past Projects </h2>
-        <h2> Contact Information </h2>
+        <header>
+            <h1> Phoenyx Meira's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+        
+        <div id ="intro" class="intro-section">
+
+            <h2> Introduction </h2>
+
+            <p> Hello my name is Phoenyx Meira!</p>
+            <p> I am a sophomore at Southern Connecticut State University and I am majoring in computer science with minors in Math and Honors Transdisciplinary Concepts.</p>
+            <p>I have experience in HTML, CSS, Python, and the Adobe suite. I have certifications in Microsoft Word, PowerPoint, and Excel.</p>
+            <p>I went to W.F. Kaynor technical High School and went for I.T. which is where I got most of my experience.</p>
+            <p>Currently I'm participating in NCL, which is the National Cyber League, that is a cybersecurity competition, learning java in CSC 229, and bettering my website development skills. </p>
+        
+            <h3>Classes I Am Currently Taking</h3>
+            <ul>
+                <li>CSC 229 - Java Development</li>
+                <li>CSC 235 - HTML, CSS, and Javascript</li>
+                <li>MAT 151 - Calculus II</li>
+                <li>PHY 201 - Physics II</li>
+                <li>MGT 305 - Organizational Behavior</li>
+                <li>HON 202 - Conceptions of Community Seminar</li>
+                <li>HON 203 - Conceptions of Community Plenary</li>
+            </ul>
+        
+        </div>
+
+        <div id = "projects" class ="projects-section">
+
+            <h2> Past Projects </h2>
+
+            <div class="slideshow-container">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+                
+                <div class="slides">
+                    <div class="slide" id="slide1">
+                        <img src="style/SingaporePic.png" alt="Slide 1">
+                    </div>
+                    <div class="slide" id="slide2">
+                        <img src="style/NashvillePic.png" alt="Slide 2">
+                    </div>
+                    <div class="slide" id="slide3">
+                        <img src="style/Code1.png" alt="Slide 3">
+                    </div>
+                    <div class="slide" id="slide3">
+                        <img src="style/Code2.png" alt="Slide 4">
+                    </div>
+                </div>
+                
+                <div class="navigation">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
+                </div>
+
+            </div>
+            
+            <p>Here I have some pictures of past projects I have done<p></p>
+            <p>I have some of the old websites I have created, some Java assignments I have done, and some pictures of a game demo that I have developed for my capstone in highschool.</p>
+        </div>
+
+        <div id = "contact" class ="contact-section">
+            <div class="contact-information">
+                <h2> Contact Information </h2>
+                <ul>
+                    <li>Name: Phoenyx Souza Meira</li>
+                    <li>Phone: (203) 510-1789</li>
+                    <li>Email: meiraa1@southernct.edu</li>
+                    <li>Address: 320 Fitch St, New Haven, Connecticut, USA 06515</li>
+                    <li><a href= "https://www.linkedin.com/in/phoenyx-meira">LinkedIn Profile</a></li>
+                </ul>
+            </div>
+            
+            <div class="contact-image">
+                <img src="style/ProfilePic.jpg" alt="Contact Image">
+            </div>
+
+        </div>
+
     </body>
 </html>
